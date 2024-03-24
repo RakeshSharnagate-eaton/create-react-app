@@ -1,5 +1,4 @@
-FROM node:14-alphine AS development
-ENV NODE_ENV development
+FROM node:21-alpine3.18
 
 WORKDIR /app
 
